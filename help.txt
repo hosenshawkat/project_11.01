@@ -1,0 +1,183 @@
+<!-- header start -->
+  <header>
+  <div class="container">
+     <!-- navbar start -->
+     <nav class="navbar navbar-expand-lg navbar-light">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="index.html">
+      <img src="images/logo.png" class="img-fluid logo" alt="education">
+    </a>
+    <button class="navbar-toggler nav_to" type="button" data-bs-toggle="collapse" data-bs-target="#c_nav" aria-controls="c_nav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse menu" id="c_nav">
+                                               
+      <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="#">Menu</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"> About us</a></li>
+        <li class="nav-item"><a class="nav-link" href="#"> Contacts</a></li>
+      </ul>
+  
+    </div>
+  </div>
+</nav>
+     <!-- navbar end -->
+
+  </div>
+  </header> 
+<!-- header end -->
+
+
+<!-- banner start -->
+<section class="banner" id="banner">
+  <div class="container">
+    <div class="row justify-content-center">
+      <div class="col-lg-8">
+        <div class="b_content text-center">
+          <h1>Grand <br>Opening</h1>
+          <div class="read_more">
+            <button>READ MORE</button>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- banner end -->
+
+
+
+
+css code======
+/* header start */
+header{
+    /*margin top:0 auto;*/
+    img {
+  width: 100%;
+  height: auto;
+}
+    background-image: url(../img/piza.jpg);
+}
+
+.menu ul li a{
+    font-size: 18px;
+    font-weight: 700;
+    color: white !important;
+    padding: 2px 20px !important;
+    border-radius:15px;
+}
+.menu ul li a:last-child {
+    padding-right: 0 !important;
+    }
+.menu ul li a:hover{
+    background-color: #f05c5c;
+
+   }
+
+/* header end */
+
+
+/* banner start */
+.banner{
+    background-image: url(../img/piza.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.b_content{
+
+}
+.b_content h1{
+    font-size: 48px;
+    font-weight: 700;
+    color: #1ec0ff; 
+    margin-top: 310px;
+    margin-bottom: 340px;
+}
+.scroll{
+
+}
+
+/* banner end */
+
+
+
+
+
+/* kid1 start */
+.kid1{
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+.c_content{
+  margin-bottom: 50px;
+}
+.c_h1{
+    font-size: 30px;
+    font-weight: 700;
+    color: #333333;
+    text-transform: uppercase;
+    margin-bottom: 0;
+}
+.c_border{
+    font-family: 'Sniglet', cursive; 
+    font-size: 24px;
+    font-weight: 700;
+    color: #ffffff;
+}
+
+.k1_content{
+
+}
+.k1_content h2{
+    font-size: 24px;
+}
+.k1_content hr{
+    width: 170px;
+    color: #A0A0A0FF;
+    height: 3px;
+    height: 5px;
+}
+.k1_content p{
+    font-family: 'Lato', sans-serif; 
+    font-size: 15px;
+    font-weight: 300;
+    line-height: 25px;  
+}
+.a_discover{
+    margin-top: 20px;
+    display: block;
+}
+.discover{
+
+}
+.k1_img{
+  
+}
+.k1_img img{
+    border-radius: 20px;
+    width: 100%;
+}
+/* kid1 end */
+
+
+<nav class="navbar navbar-expand-lg navbar-light">
+
+<div class="row align-items-center">
+
+
+
+
+
+
+
+
+
+
+Footer=========
+
+padding-top: 50px;
+padding-bottom: 80px;
